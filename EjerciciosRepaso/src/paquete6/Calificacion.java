@@ -15,8 +15,8 @@ public class Calificacion {
     private String nombreMateria;
     private Profesor profesor;
 
-    public Calificacion(String nombre) {
-        
+    public Calificacion(double n, String nombre) {
+        nota = n;
         nombreMateria = nombre;
         
     }

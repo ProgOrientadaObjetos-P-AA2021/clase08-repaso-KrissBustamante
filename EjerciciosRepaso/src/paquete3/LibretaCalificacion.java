@@ -15,9 +15,10 @@ public class LibretaCalificacion {
     private String promedioCualitativo;
     private Calificacion [] calificaciones;
     
-    public LibretaCalificacion(String n){
+    public LibretaCalificacion(String n, Calificacion [] a){
         estudiante = n;
         
+        calificaciones =a;
     }
     
     public void establecerEstudiante(String n){
